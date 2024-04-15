@@ -1,4 +1,4 @@
-# Sparse Autoencoder and anomaly detection in images
+# Sparse Autoencoder and Anomaly Detection in Images
 
 This project consists of two Python files, `sparse_autoencoder.py` and `anomalies.py`, which implement a Sparse Autoencoder (SAE) and anomaly detection in images. In my use case, I trained the SAE on a dataset of **images of the same object**, and then used the SAE to find anomalies in the dataset.
 
