@@ -16,9 +16,9 @@ This file uses the Sparse Autoencoder to find anomalies in the dataset
 
 To use this project, first ensure that you have the necessary dependencies installed. These include PyTorch, numpy, matplotlib, PIL, and wandb.
 
-Next, run the `sparse_autoencoder.py` script to train the Sparse Autoencoder on your dataset. This will print the loss on the training and validation sets every 200 epochs, and will plot some sample reconstructions.
+Next, you can run the `sparse_autoencoder.py` script to train the Sparse Autoencoder on your dataset. This will print the loss on the training and validation sets every 200 epochs, and will plot some sample reconstructions throughout the training.
 
-Finally, you can run the `anomalies.py` script to find anomalies in your dataset. This will print the smallest and largest losses, and will plot the images with the smallest and largest losses.
+Next, you can run the `anomalies.py` script to find anomalies in your dataset. This script also trains the SAE, but it also prints the **smallest and largest** losses, and plots the images with the **smallest and largest** losses.
 
 ## Configuration
 
